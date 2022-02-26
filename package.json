@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "cm": "cz",
-    "commit": "git-cz"
+    "cm": "./node_modules/.bin/cz --hook"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
