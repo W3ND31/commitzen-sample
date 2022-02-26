@@ -1,0 +1,22 @@
+{
+  "name": "commitizen-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "cm": "cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "commitizen": "^4.2.4",
+    "conventional-changelog-conventionalcommits": "^4.6.3",
+    "cz-customizable": "6.3.0",
+    "husky": "^7.0.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
