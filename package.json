@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "cm": "cz"
+    "cm": "cz",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
