@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "cm": "./node_modules/.bin/cz --hook"
+    "cm": "npx cz --hook"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
