@@ -8,3 +8,8 @@ After this, after `git commit`, commitizen will ask you what kind of commit is a
 ## Configuring questions and options
 
 On `.cz-config.js` and `commitlint.config.js` you can configure the questions, the descriptions of them, if them have any options or not and other things using [cz-customizable](https://github.com/leoforfree/cz-customizable) and [commitlint](https://github.com/conventional-changelog/commitlint)
+
+## Contributions
+
+Any contribution to this repo is appreciated! 
+We need to translate the commands/questions/descriptions to other languages, to be more inclusive.

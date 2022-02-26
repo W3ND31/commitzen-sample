@@ -27,7 +27,7 @@ module.exports = {
       { value: 'WIP', name: 'WIP:      Work in progress' },
     ],
   
-    scopes: [{ name: 'test' }, { name: 'commitizen-sample' }, { name: 'you can add more' }, { name: 'just create a new object on .cz-config.js.scopes' }],
+    scopes: [{ name: 'commitizen-sample' }, { name: 'you can add more' }, { name: 'just create a new object on .cz-config.js.scopes' }],
   
     allowTicketNumber: false,
     isTicketNumberRequired: false,
